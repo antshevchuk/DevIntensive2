@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+        <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:divider="@drawable/separator"
+              android:dividerPadding="16dp"
+              android:orientation="horizontal"
+              android:showDividers="middle"
+              android:background="@color/color_textView_background">
+
+
+                <TextView
+                    style="@style/AppTextView"
+                    android:text="5 \nРейтинг"
+                    android:layout_weight="0.25"/>
+
+                <TextView
+                    style="@style/AppTextView"
+                    android:text="5 \nНаписано строк кода"
+                    android:layout_weight="0.5"/>
+
+                <TextView
+                    style="@style/AppTextView"
+                    android:text="5 \nПроектов"
+                    android:layout_weight="0.25"/>
+        </LinearLayout>
+
+</LinearLayout>
