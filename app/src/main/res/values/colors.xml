@@ -3,6 +3,7 @@
     <color name="color_primary">#3F51B5</color>
     <color name="color_primary_dark">#303F9F</color>
     <color name="color_accent">#FF4081</color>
-    <color name="color_textView_blue">#000fff</color>
-    <color name="color_textView_background">#cccfff</color>
+    <color name="color_textView_white">#ffffff</color>
+    <color name="gray">#5d5d5d</color>
+    <color name="black">#000000</color>
 </resources>
